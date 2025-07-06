@@ -1,0 +1,28 @@
+.tabs-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab-button {
+  position: relative;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  color: var(--text-light);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.tab-button.active {
+  color: var(--primary);
+}
+
+.underline {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--primary);
+}
